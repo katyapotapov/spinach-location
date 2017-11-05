@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="styles/style.css" />
+  <script src="js/jquery-3.2.1.js"></script>
+  <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&libraries=places"></script> -->
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <h1> What To Do On This Weekend?</h1>
+
+   <div class="demo">
+
+   <form id="gmaps-data" action="#">
+
+     <fieldset>
+       <label for="type">Select a type</label>
+       <select name="type" id="type">
+         <option value="store">Store</option>
+         <option value="zoo">Zoo</option>
+         <option value="restaurants">Restaurants</option>
+         <option>Shopping</option>
+       </select>
+
+       <label for="distance">How Far (km)</label>
+       <input id="distance" placeholder="10">
+     </fieldset>
+
+     <input id="bt" type="button" name="button" value="Go!" onclick="return false">
+   </form>
+
+   </div>
+
+
+  <div id="map"></div>
+
+  <div id="testResults"></div>
+
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&libraries=places&callback=initMap" async defer></script>
+
+
+</body>
+
+
+</html>
+
+
+<!-- <script src="js/script.js"></script> -->

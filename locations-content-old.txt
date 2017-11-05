@@ -1,0 +1,5 @@
+CONTENTS
+
+[locations_map width=”100%”]
+
+<p>Hello world!</p>
