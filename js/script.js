@@ -19,11 +19,11 @@ function initMap() {
 
   var pyrmont= {
   //Peterborough
-    // lat: 44.356824,
-    // lng: -78.290945
+    lat: 44.356824,
+    lng: -78.290945
     //Waterloo
-    lat: 43.478318,
-    lng: -80.536702
+    // lat: 43.478318,
+    // lng: -80.536702
   }
   map = new google.maps.Map(document.getElementById('map'), {
     center: pyrmont,
